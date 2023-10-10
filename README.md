@@ -6,9 +6,10 @@
 
 **Portfolio for projects display and contact information disponibilization.**
 
-##Usage
+## Usage
+
 Webpage for a portfolio, constituted of a front-end structure for displaying concluded projects and disponibilize contact information. Structured with home, works and about sections.
 
-![page demonstration GIF](https://github.com/rszimmer/portfolio/blob/master/assets/demonstration_gif.gif?raw=true)
+![page demonstration GIF](https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTRsd3A2YXc0ZGhpZW1xb3JqNjhpcjBudmRwYXJyZDFieWJ6b2xkNCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/XA2XaUUJof7GkwdBi2/giphy.gif)
 
 Prototype Link: https://www.figma.com/proto/y2yB1f8IPlx5EhCnuszXEW/Portfolio?type=design&node-id=6-28&t=3M0RbR1sEzJNZSQL-1&scaling=min-zoom&page-id=6%3A27&mode=design
