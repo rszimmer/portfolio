@@ -26,4 +26,5 @@
 
 .header_buttons:hover {
     text-shadow: 1px 1px #5858582c;
+    cursor: pointer;
 }
