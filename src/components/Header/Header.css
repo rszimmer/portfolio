@@ -1,7 +1,8 @@
 @import url(//fonts.googleapis.com/css?family=Red+Hat+Text);
 
 #header {
-    position: fixed;
+    position: sticky;
+    top: 0;
     width: 100%;
     height: 62px;
     border-bottom: 1px solid #585858;
