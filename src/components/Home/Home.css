@@ -1,0 +1,53 @@
+#home {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#heading_intro {
+    all:unset;
+    font-family: 'Red Hat Text';
+    color: #494949;
+    font-size: 35px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.heading_boxes {
+    height: 53px;
+    width: 250px;
+    border-radius: 10px;
+    padding: 10px;
+    line-height: 100px;
+}
+
+.heading_boxes#dynamic_box {
+    background: #E8A0BF;
+}
+
+.heading_boxes#performatic_box {
+    background: #BA90C6;
+}
+
+.heading_boxes#accessible_box {
+    background: #C0DBEA;
+}
+
+#intro_section {
+    display: flex;
+    flex-direction: row;
+}
+
+.intro_name {
+    all:unset;
+    font-family: 'Red Hat Text';
+    color: #494949;
+    font-size: 80px;
+    font-weight: 900;
+    text-align: center;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
