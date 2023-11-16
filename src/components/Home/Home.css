@@ -3,7 +3,9 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 93vh;
+    animation: introduction_animation;
+    animation-duration: 1s;
 }
 
 #heading_intro {
@@ -37,10 +39,10 @@
 
 .heading_boxes#accessible_box {
     background: #C0DBEA;
-    animation-duration: 6s;
+    animation-duration: 5s;
 }
 
-#intro_section {
+#personal_intro {
     display: flex;
     flex-direction: row;
 }
@@ -56,6 +58,20 @@
     text-orientation: mixed;
 }
 
+.intro_photo {
+    animation: picture_animation;
+    animation-duration: 5s;
+}
+
+@keyframes introduction_animation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 100%;
+    }  
+}
+
 @keyframes skills_animation {
     from {
         opacity: 0;
@@ -66,3 +82,20 @@
         margin-right: 0;
     }    
 }
+
+@keyframes picture_animation {
+    from {
+        opacity: 0;
+        margin-left: 100px;
+    }
+    to {
+        opacity: 100%;
+        margin-left: 0;
+    }    
+}
+
+@media (prefers-reduced-motion) {
+    #home,.heading_boxes,.intro_photo {
+        animation: none;
+    }
+  }

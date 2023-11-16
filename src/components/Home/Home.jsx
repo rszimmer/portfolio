@@ -21,10 +21,10 @@ const Home = () => {
         <br />
         front-ends
       </h1>
-      <div id='intro_section'>
+      <div id='personal_intro'>
         <p className='intro_name'>Zimmer</p>
         <p className='intro_name'>Raquel</p>
-        <img src={icon} alt='Raquel Zimmer Photo' />
+        <img className='intro_photo' src={icon} alt='Raquel Zimmer Photo' />
       </div>
     </section>
   );
