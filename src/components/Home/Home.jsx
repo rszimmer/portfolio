@@ -6,24 +6,27 @@ const Home = () => {
   return (
     <section id='home'>
       <h1 id='heading_intro'>
-        Developing <br />
+        Developing
+        {/* <br /> */}
         <span className='heading_boxes' id='dynamic_box'>
           dynamic
         </span>
-        <br />
+        {/* <br /> */}
         <span className='heading_boxes' id='performatic_box'>
           performatic
         </span>
-        <br />
+        {/* <br /> */}
         <span className='heading_boxes' id='accessible_box'>
           accessible
         </span>
-        <br />
+        {/* <br /> */}
         front-ends
       </h1>
       <div id='personal_intro'>
-        <p className='intro_name'>Zimmer</p>
-        <p className='intro_name'>Raquel</p>
+        <div id='name_div'>
+          <p className='intro_name'>Zimmer</p>
+          <p className='intro_name'>Raquel</p>
+        </div>
         <img className='intro_photo' src={icon} alt='Raquel Zimmer Photo' />
       </div>
     </section>
