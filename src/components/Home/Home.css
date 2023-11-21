@@ -13,14 +13,14 @@
     all:unset;
     font-family: 'Red Hat Text';
     color: hsl(0, 0%, 29%);
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 900;
     text-transform: uppercase;
     text-align: right;
 }
 
 .heading_boxes {
-    width: 12ch;
+    width: 13ch;
     border-radius: 12px;
     line-height: 4ex;
     display: block;
@@ -49,12 +49,18 @@
     flex-direction: row;
 }
 
+#name_div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
 .intro_name {
     all:unset;
     font-family: 'Red Hat Text';
     color: #494949;
-    /* font-size: 80px; */
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 900;
     text-align: center;
     writing-mode: vertical-rl;
@@ -62,8 +68,8 @@
 }
 
 .intro_photo {
-    width: fit-content;
-    height: fit-content;
+    max-width: 50%;
+    max-height: 50%;
     align-self: center;
     animation: picture_animation;
     animation-duration: 5s;
@@ -76,7 +82,7 @@
     
     #personal_intro {
         flex-direction: column;
-        gap: 30px;
+        gap: 15px;
     }
 
     #name_div {
