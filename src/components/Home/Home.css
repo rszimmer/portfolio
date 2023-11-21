@@ -1,0 +1,101 @@
+#home {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 93vh;
+    animation: introduction_animation;
+    animation-duration: 1s;
+}
+
+#heading_intro {
+    all:unset;
+    font-family: 'Red Hat Text';
+    color: #494949;
+    font-size: 35px;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-align: right;
+}
+
+.heading_boxes {
+    height: 53px;
+    width: 250px;
+    border-radius: 10px;
+    padding: 10px;
+    line-height: 100px;
+    animation-name: skills_animation;
+}
+
+.heading_boxes#dynamic_box {
+    background: #E8A0BF;
+    animation-duration: 2s;
+}
+
+.heading_boxes#performatic_box {
+    background: #BA90C6;
+    animation-duration: 4s;
+}
+
+.heading_boxes#accessible_box {
+    background: #C0DBEA;
+    animation-duration: 5s;
+}
+
+#personal_intro {
+    display: flex;
+    flex-direction: row;
+}
+
+.intro_name {
+    all:unset;
+    font-family: 'Red Hat Text';
+    color: #494949;
+    font-size: 80px;
+    font-weight: 900;
+    text-align: center;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+
+.intro_photo {
+    animation: picture_animation;
+    animation-duration: 5s;
+}
+
+@keyframes introduction_animation {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 100%;
+    }  
+}
+
+@keyframes skills_animation {
+    from {
+        opacity: 0;
+        margin-right: 100px;
+    }
+    to {
+        opacity: 100%;
+        margin-right: 0;
+    }    
+}
+
+@keyframes picture_animation {
+    from {
+        opacity: 0;
+        margin-left: 100px;
+    }
+    to {
+        opacity: 100%;
+        margin-left: 0;
+    }    
+}
+
+@media (prefers-reduced-motion) {
+    #home,.heading_boxes,.intro_photo {
+        animation: none;
+    }
+  }
