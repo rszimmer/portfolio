@@ -13,7 +13,7 @@ const Home = () => {
         </span>
         {/* <br /> */}
         <span className='heading_boxes' id='performatic_box'>
-          performatic
+          performative
         </span>
         {/* <br /> */}
         <span className='heading_boxes' id='accessible_box'>
