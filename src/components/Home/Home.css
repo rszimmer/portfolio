@@ -3,6 +3,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     height: 93vh;
     animation: introduction_animation;
     animation-duration: 1s;
@@ -11,19 +12,20 @@
 #heading_intro {
     all:unset;
     font-family: 'Red Hat Text';
-    color: #494949;
-    font-size: 35px;
+    color: hsl(0, 0%, 29%);
+    font-size: 1.5rem;
     font-weight: 900;
     text-transform: uppercase;
     text-align: right;
 }
 
 .heading_boxes {
-    height: 53px;
-    width: 250px;
-    border-radius: 10px;
-    padding: 10px;
-    line-height: 100px;
+    width: 14rem;
+    border-radius: 12px;
+    line-height: 4ex;
+    display: block;
+    text-align: center;
+    margin: 20px 0 20px 0;
     animation-name: skills_animation;
 }
 
@@ -47,11 +49,18 @@
     flex-direction: row;
 }
 
+#name_div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
 .intro_name {
     all:unset;
     font-family: 'Red Hat Text';
     color: #494949;
-    font-size: 80px;
+    font-size: 4rem;
     font-weight: 900;
     text-align: center;
     writing-mode: vertical-rl;
@@ -59,8 +68,36 @@
 }
 
 .intro_photo {
+    max-width: 50%;
+    max-height: 50%;
+    align-self: center;
     animation: picture_animation;
     animation-duration: 5s;
+}
+
+@media (orientation: portrait) {
+    #heading_intro {
+        text-align: center;
+    }
+    
+    #personal_intro {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    #name_div {
+        width: 100vw;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .intro_name {
+        writing-mode: horizontal-tb;
+        font-size: 3rem;
+    }
 }
 
 @keyframes introduction_animation {
