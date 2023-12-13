@@ -3,7 +3,7 @@ import "./Header.css";
 
 const Header = () => {
   return (
-    <header id='header'>
+    <header id='header' aria-label='header'>
       <nav id='navigation_bar'>
         <button className='header_buttons'>Home</button>
         <button className='header_buttons'>Works</button>
