@@ -4,18 +4,15 @@ import icon from "../../assets/Icon.png";
 
 const Home = () => {
   return (
-    <section id='home'>
+    <section id='home' aria-label='home'>
       <h1 id='heading_intro'>
         Developing
-        {/* <br /> */}
         <span className='heading_boxes' id='dynamic_box'>
           dynamic
         </span>
-        {/* <br /> */}
         <span className='heading_boxes' id='performatic_box'>
           performative
         </span>
-        {/* <br /> */}
         <span className='heading_boxes' id='accessible_box'>
           accessible
         </span>
