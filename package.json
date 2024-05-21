@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "0.0.1",
+  "description": "A simple website to showcase my work and provide contact information",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rszimmer/portfolio.git"
+  },
+  "author": "Raquel Zimmer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rszimmer/portfolio/issues"
+  },
+  "homepage": "https://github.com/rszimmer/portfolio#readme",
+  "dependencies": {
+    "node-modules": "^1.0.1"
+  }
+}
