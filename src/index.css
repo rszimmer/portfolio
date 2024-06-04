@@ -8,7 +8,6 @@ body {
   
   #root {
     background-color: rgba(255, 255, 255, 1);
-    opacity: 0.3;
-    background-image: radial-gradient(#b2b2b2 0.71px, rgba(229,229,247,0) 0.71px);
+    background-image: radial-gradient(#d6d6d6 1px, rgba(229,229,247,0) 1px);
     background-size: 10px 10px;
   }

@@ -1,0 +1,20 @@
+#header {
+    display: flex;
+    flex-direction: row;
+    gap: 3vw;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 3vh 0 3vh 0;
+}
+
+#header a {
+    all: unset;
+    font-family: Inter;
+    font-size: 1.3rem;
+    color: black;
+    text-transform: capitalize;
+}
+
+#header a:last-child {
+    background-image: linear-gradient(to top, #FFC9F0 50%, transparent 50%, transparent 100% );
+}
