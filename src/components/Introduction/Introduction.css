@@ -1,0 +1,68 @@
+#person {
+    width: fit-content;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    transform: rotateZ(-10deg);
+}
+
+#person_icon {
+    height: 90px;
+    width: 90px;
+    border: 1px dashed black;
+    border-radius: 50%;
+    padding: 1px;
+}
+
+#arrow_left {
+    height: 70px;
+    width: 70px;
+}
+
+#person_name {
+    all: unset;
+    font-family: Handlee;
+    font-weight: 700;
+    font-size: 1.3rem;
+    padding: 3px;
+    color: black;
+    background-color: #FFC9F0;
+    align-self: top;
+}
+
+#call {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#introduction_title {
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.title_highlights {
+    background-image: linear-gradient(to top, #FFC9F0 50%, transparent 50%, transparent 100% );
+}
+
+#call_text_button_container {
+    width: 500px;
+}
+
+#call_text_button_container p {
+    font-family: Inter;
+    font-size: 1.4rem;
+}
+
+#call_text_button_container button {
+    all: unset;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    font-family: Inter;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
